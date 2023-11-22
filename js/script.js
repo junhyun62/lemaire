@@ -1,5 +1,9 @@
 $(document).ready(function(){
     // 햄버거 버튼 클릭하면 메인메뉴 나오면서 햄버거버튼 스위치되도록 처리
+        $('#hamburger').click(function(){
+        $(this).toggleClass('active');
+        $('.main-menu').toggleClass('active');
+    });
 
 
 
